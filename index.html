@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ja">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="朝ごはんを食べよう。｜MORNING＆CATERING ohayo">
+   <title>朝ごはんを食べよう。｜MORNING＆CATERING ohayo</title>
+   <link href="css/reset.css" rel="stylesheet" type="text/css">
+   <link href="css/design.css" rel="stylesheet" type="text/css">
+   <link href="css/style.css" rel="stylesheet" type="text/css">
+   <link href="css/responsive.css" rel="stylesheet" type="text/css">
+   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+   <!-- jQuery.jsの読み込み -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<!-- スムーズスクロール部分の記述 -->
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+<body>
+   <header>
+      <div class="header">
+         <div class="top">
+            <div class="header-left">
+               <a href target="_top">
+                  <img class= "logo" src="img/logo.jpg">
+               </a>
+            </div>
+            <div class="header-right">
+               <ul>
+                  <li>
+                     <a href="#home" target="_top">HOME</a>
+                  </li>
+                  <li>
+                     <a href="#consept" target="_top" >CONSEPT</a>
+                  </li>
+                  <li>
+                     <a href="#news" target="_top">NEWS</a>
+                  </li>
+                  <li>
+                     <a href="#menu" target="_top">MENU</a>
+                  </li>
+                  <li>
+                     <a href="#shop" target="_top">SHOP</a>
+                  </li>
+                  <li>
+                     <a href="#share" target="_top">SHARE</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <main>
+     <div id="home" class="content">
+         <diV class="main-img">
+          <img class="slide-img fade" src="img/slide-text.png">
+         </diV> 
+       
+         <div class="time">
+          <h1><span class="fa fa-sun"></span>MORNING 07:00 - 11:00</h1>
+          <h1><span class="far fa-moon"></span>CLOSED SATURDAY & SUNDAY</h1>
+         </div>
+     </div>
+
+     <div id="consept" class="consept">
+        <div class="consept-inner">
+           <div class="consept-letter">
+              <div class="consept-box">
+                 <div class="consept-title">
+                  <p class="consept-eng">CONSEPT</p>
+                    <p class="consept-ja">コンセプト</p>
+                 </div>
+                 <p class="consept-p">
+                     良い一日のスタートは朝ごはんで。<br>
+                     「忙しい朝でも、朝ごはんを食べてほしい。」<br>
+                     そんな想いからできた朝ごはん専門店です。<br>
+                   ―<br>
+                   ohayoの朝ごはんはその季節ならではの旬の食材を使った<br>
+                   ヘルシーなワンプレートでご提供しています。<br>
+                   しっかり栄養のあるものを食べて素敵な1日をスタート。<br>
+                   ohayoは朝ごはんを食べるきっかけになりたいと思っています。
+                  </p>
+               </div>
+            </div>
+        </div>
+     </div>
+
+     <div id="news" class="news">
+         <div class="news-title">
+            <p class="eng">NEWS</p>
+            <p class="ja">お知らせ</p>
+         </div>
+         <div class="news1">
+            <p><span class="day">2019.01.19</span><span class="new">New!</span>ケータリングサービス始めました！<span class="fa  arrow-circle-right"></span></p>
+            <p><span class="day">2019.01.04</span>あけましておめでとうございます！今年もohayoをどうぞよろしくお願いいたします。</p>
+            <p><span class="day">2018.12.25</span>年末年始の営業について<span class="fa  arrow-circle-right"></span></p>
+         </div>
+         <div class="more">
+            <p>see more</p>
+         </div>
+     </div>
+
+     <div id="menu" class="menu">
+         <div class="menu-title">
+            <p class="menu-eng">MENU</p>
+            <p class="menu-ja">メニュー</p>
+         </div>
+
+         <div class="menu-list">
+            <div class="menu-list2">
+               <div class="slider menu-photo">
+                  <img class="slide-item" src="img/menu1.jpg">
+                  <img class="slide-item" src="img/menu2.jpg">
+                  <img class="slide-item" src="img/menu3.jpg">
+                  <img class="slide-item" src="img/menu1.jpg">
+               </div>
+               <div class="menu-syousai">
+                  <div class="menu-top">
+                     <h1>旬の食材を使用した日替わりランチプレート
+                        <span class="right">¥600</span>
+                     </h1>
+                  </div>
+                  <p class="menu-setumei">その時期の旬の食材を使ったワンプレート朝ごはんです。</p>
+                  <p>パンかご飯か選べます。</p>
+   
+                  <div class="menu-bottom">
+                     <h1>ドリンク
+                        <span class="right">+¥100</span>
+                     </h1>
+                  </div>
+                  <p class="menu-setumei">・コーヒー(I/H)　・紅茶(I/H)　・オレンジジュース</p>
+                  <p class="menu-attention">※ドリンクのみのご注文は承っておりません。</p>
+               </div>
+            </div>
+         </div>
+     </div>
+
+     <div id="shop" class="shop">
+        <div class="shop-title">
+           <p class="shop-eng">SHOP</p>
+           <p class="shop-ja">店舗情報</p>
+        </div>
+        
+        <div class="shop-photo-map">
+           <img class="shop-photo" src="img/shop1.jpg">
+           <iframe  class="shop-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747975468372!2d139.74324421512432!3d35.658580480199525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1595327085181!5m2!1sja!2sjp" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+         <div class="shop-time-position">
+             <div class="shop-time">
+              <h1><span class="fa fa-sun"></span>MORNING 07:00 - 11:00</h1>
+              <h1><span class="far fa-moon"></span>CLOSED SATURDAY & SUNDAY</h1>
+             </div>
+   
+             <div class="shop-position">
+                <p>〒123-456</p>
+                <p>東京都○○区○○1-2-3 ※架空ページです。</p>
+             </div>
+         </div>
+     </div>
+
+      <div ID="share" class="share">
+         <div class="share-title">
+             <p class="share-eng">SHARE</p>
+            <p class="share-ja">シェア</p>
+         </div>
+   
+          <div class="share-icon">
+             <a href=""><span class="fab fa-instagram insta"></span></a>
+             <a href=""><span class="fab fa-twitter-square twitter"></span></a>
+             <a href=""><span class="fab fa-facebook-square facebook"></span></a>
+           </div>
+   
+          <div class="share-hash">
+             <p class="hash1">#ohayo</p>
+             <p class="hash2">#朝ごはん</p>
+             <p class="hash3">#朝活</p>
+             <p class="hash4">#ohayoプレート</p>
+             <p class="hash5">#モーニング</p>
+          </div>
+   
+          <div class="share-img">
+              <img src="img/share1.jpg">
+              <img src="img/share2.jpg">
+              <img src="img/share3.jpg">
+              <img src="img/share4.jpg">
+              <img src="img/share5.jpg">
+              <img src="img/share6.jpg">
+         </div>
+       </div>
+   </main>
+
+   <footer>
+      <div class="footer-logo">
+         <img class="footer-logo2" src="img/logo2.jpg">
+      </div>
+
+      <div class="footer-list">
+         <ul>
+            <li>
+               <a href="#home" target="_top">HOME</a>
+            </li>
+            <li>
+               <a href="#consept" target="_top" >CONSEPT</a>
+            </li>
+            <li>
+               <a href="#news" target="_top">NEWS</a>
+            </li>
+            <li>
+               <a href="#menu" target="_top">MENU</a>
+            </li>
+            <li>
+               <a href="#shop" target="_top">SHOP</a>
+            </li>
+            <li>
+               <a href="#share" target="_top">SHARE</a>
+            </li>
+         </ul>
+      </div>
+
+      <div class="footer-bottom">
+         <p>© 2019 ohayo MORING & CATERING, All Rights Reserved.</p>
+      </div>
+   </footer>
+</body>
+</html>
