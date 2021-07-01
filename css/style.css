@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+
+
+.header {
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 10px 0;
+}
+
+.header-left a:hover {
+    opacity: 0.5;
+}
+
+.header-right {
+    width: 72.6%;
+    height: 18px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header li {
+    font-family: sans-Serif;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-img {
+    width: auto;
+    height: 1000px;
+    background-image: url(slide1.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-img {
+    height: 390px;
+    width: auto;
+    align-self: center;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 60px 0;
+}
+
+.time h1 {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin: 0 10px;
+}
+
+.consept {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    width: auto;
+    height: 584px;
+}
+
+.consept-inner {
+    width: 1000px;
+    margin: auto;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.consept-letter {
+    border: 3px solid;
+    border-color: #fff;
+    height: 550px;
+    width: 530px;
+}
+
+.consept-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    height: 524px;
+    background: #fff;
+    text-align: center;
+    
+}
+
+.consept-eng {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.consept-ja {
+    padding-top: 15px;
+}
+
+.consept-p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.news {
+    width: 100%;
+    padding: 80px 0;
+    background: #FFFFF0;
+}
+
+.eng {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ja {
+    padding-top: 10px;
+    padding-bottom: 32px;
+}
+
+.news-title {
+    text-align: center;
+}
+
+.news1 {
+    letter-spacing: 2px;
+    width: 800px;
+    margin: auto;
+    font-size: 14px;
+}
+
+.news1 p {
+    border-bottom: dotted 1px #555555;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #555555;
+}
+
+.news1 .new {
+    background: #FF773E;
+    color: #ffffff;
+    padding: 2px 5px;
+    margin-right: 5px;
+}
+
+.news1 .day {
+    margin-right: 20px;
+}
+
+.news .more {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 230px;
+    height: 30px;
+}
+
+.more p {
+    line-height: 30px;
+}
+
+.menu {
+    width: auto;
+    height: 550px; 
+}
+
+.menu-title {
+    text-align: center;
+}
+
+.menu-eng {
+    font-size: 36px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.menu-ja {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.menu-list {
+    display: flex;
+    width: auto;
+    height: 417px;
+    justify-content: center;
+}
+
+.menu-list2 {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 417px;
+}
+
+.menu-syousai {
+    padding-left: 10px;
+    width: 490px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-syousai h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.menu-top, .menu-bottom {
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+
+.menu-bottom {
+    margin-top: 30px;
+}
+
+.menu-setumei {
+    margin-bottom: 10px;
+}
+
+.menu-attention {
+    font-size: 14px;
+    color: #BBBBBB;
+}
+
+.shop {
+    background: #FFFFEE;
+    width: auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.shop-eng {
+    padding-top: 60px;
+    font-size: 36px;
+}
+
+.shop-ja {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.shop-time-position {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.shop-time {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 3px;
+}
+
+.shop-position {
+    padding-left: 30px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.share {
+    width: auto;
+    height: 900px;
+    text-align: center;
+    padding: 60px 0 60px 0;   
+    margin-bottom: 50px;
+}
+
+.share-eng {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.share-ja {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.share-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.share-icon a:hover {
+    opacity: 0.5;
+}
+
+.facebook,.insta,.twitter {
+    color: orange;
+    font-size: 36px;
+}
+
+.share-hash {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+}
+
+.share-hash p {
+    margin-right: 20px;
+    background: #EEEEEE;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.share-img {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.share-img img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo2 {
+    width: 200px;
+}
+
+.footer-list ul {
+    font-family: sans-Serif;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    height: 24px;
+}
+
+.footer-list li {
+    margin: 0 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: auto;
+    background: #CCCCCC;
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+ul li a:hover {
+    opacity: 0.5;
+    border-bottom: solid 4px orange;
+}
+
+.fade {
+    animation: fadein 3s ease 0s 1 normal;
+}
+
+@keyframes fadein {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.slider img {
+    width: inherit;
+    height: inherit;
+    padding-right: 10px;
+    border: none;
+}
+
+.slider {
+    white-space: nowrap;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider > :first-child {
+    animation: slide 18s 0s infinite;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+    33% {
+        margin-left: -100%;
+    }
+    66% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.menu-photo {
+    margin: auto;
+}
